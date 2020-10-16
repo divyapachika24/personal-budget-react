@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 
 import {
@@ -16,6 +16,7 @@ import AboutPage from './AboutPage/AboutPage'
 import LoginPage from './LoginPage/LoginPage'
 
 function App() {
+  
   return (
     <Router>
       <Menu/>
@@ -35,6 +36,8 @@ function App() {
       </div>
       <Footer/>
     </Router>
+
+   
   );
 }
 

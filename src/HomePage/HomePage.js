@@ -1,7 +1,14 @@
 import React from 'react';
+import PieChart from "../PieChart/PieChart"
+import D3Chart from '../D3Chart/D3Chart';
+
+
 
 
 function HomePage() {
+ 
+     
+      
   return (
     <main className="center" id="main">
 
@@ -65,15 +72,25 @@ function HomePage() {
             </article>
     
             <article>
-                <h1>Chart</h1>
+                <h1>Pie Chart</h1>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                    {/* <canvas id="myChart" width="400" height="400"></canvas> */}
+                    <PieChart />
                 </p>
             </article>
+            <article>
+                <h1>D3JS Chart</h1>
+                <p>
+                    <D3Chart />
+                </p>
+            </article>
+
 
         </div>
 
     </main>
+    
+    
   );
 }
 

@@ -8,12 +8,7 @@ import {
 
 function Menu() {
   return (
-  <nav
-    role="navigation"
-    aria-label="Main menu"
-    itemScope
-    itemType="https://schema.org/SiteNavigationElement"
-  >
+  <nav>
     <ul>
         <li><Link itemProp="url" to="/">Home</Link></li>
         <li><Link itemProp="url" to="/about">about</Link></li>
